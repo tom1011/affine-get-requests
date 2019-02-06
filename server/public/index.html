@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Famous Quotes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="jquery.js"></script>
     <script src="client.js"></script>
 </head>
+
 <body>
     <h1>
-         In Index.html
+        Famous Quotes
     </h1>
-    
+    <div>
+        <input placeholder="quote" id="quoteInput">
+        <input placeholder="Author" id="authorInput">
+        <button id="submitButton">Submit</button>
+    </div>
+
+    <table>
+        <tbody id="quoteTable">
+            <tr>
+                <th>Quotes</th>
+                <th>Author</th>
+            </tr>
+            <tr>
+                <td>I'm not going to school just for the academics - I wanted to share ideas, to be around people who
+                    are
+                    passionate about learning.</td>
+                <td>Emma Watson</td>
+            </tr>
+            <tr>
+                <td>Remember there's no such thing as a small act of kindness. Every act creates a ripple with no
+                    logical
+                    end.</td>
+                <td>Scott Adams</td>
+            </tr>
+            <tr>
+                <td>Intelligence plus character-that is the goal of true education.</td>
+                <td>Martin Luther King, Jr.</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>

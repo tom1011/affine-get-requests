@@ -42,4 +42,5 @@ app.listen(PORT, () => {
 // CRUD create, read/retrieve, update, delete.
 // create = post, read = get, update = put, delete = delete
 //today focuse on post and get.
- 
+ // ajax 
+ //
